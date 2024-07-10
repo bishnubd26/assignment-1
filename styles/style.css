@@ -130,3 +130,15 @@ main{
     width: 250px;
 
 }
+
+/* inspiration styles */
+.video-container{
+    padding: 20px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    text-align: center;
+
+}
+.video-container iframe{
+    border-radius: 16px;
+}
