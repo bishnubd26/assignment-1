@@ -76,7 +76,6 @@ section{
 
 /* main styles */
 main{
-    border: 1px solid red;
     max-width: 1140px;
     margin: 0 auto;
 }
@@ -247,4 +246,34 @@ main{
     font-weight: 600;
     line-height: 23px;
     cursor: pointer;
+}
+
+/* footer styles */
+footer{
+    margin-top: 80px;
+    /* max-width: 1440px; */
+    height: 100px;
+    border-radius: 16px;
+    background-color: rgba(13, 19, 33, 0.03);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .commitment{
+    width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer h4{
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+}
+footer .icon{
+    font-size: 36px;
+    margin-left: 24px;
 }
